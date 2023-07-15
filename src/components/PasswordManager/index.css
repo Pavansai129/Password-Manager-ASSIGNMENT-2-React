@@ -37,11 +37,13 @@
   padding: 20px;
   border-radius: 5px;
   background-color: #5763a5;
+  margin-bottom: 30px;
 }
 .user-name-password-input-container {
   background-color: #454f84;
-  padding: 20px;
+  padding: 30px;
   width: 40%;
+  border-radius: 10px;
 }
 .add-new-password-text {
   color: white;
@@ -148,4 +150,113 @@
 }
 .password-manager-image {
   width: 80%;
+}
+.passwords-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #5763a5;
+  height: 600px;
+}
+.passwords-count-and-search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+.your-password-text-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.your-passwords-text {
+  color: white;
+  font-size: 20px;
+  margin-right: 30px;
+  margin-bottom: 0px;
+}
+.passwords-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+  height: 30px;
+  width: 60px;
+  padding: 5px;
+  margin-right: 30px;
+  margin-bottom: 0px;
+}
+.passwords-search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  width: 280px;
+  margin-bottom: 0px;
+}
+.search-logo {
+  background-color: white;
+  height: 30px;
+  margin-bottom: 0px;
+}
+.password-search-input {
+  height: 30px;
+  border: none;
+  outline: none;
+  width: 250px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+.horizontal-line {
+  border: 1px solid #b6c3ca;
+  width: 100%;
+}
+.passwords-storage-container {
+  width: 100%;
+}
+.passwords-storage-cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+}
+.show-passwords-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.show-passwords-text {
+  color: white;
+}
+.no-passwords-image-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.no-passwords-image {
+  height: 300px;
+}
+.no-passwords-text {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
 }
