@@ -1,0 +1,84 @@
+Total:38
+38
+0
+Password Manager tests
+
+38
+38
+0
+When two passwords are added, then the page should consist of at least two HTML list items and the passwords list should be rendered using a unique key as a prop for each password item
+413 ms 
+Page should consist of an HTML image element with alt attribute value as "app logo" and src as the given logo URL
+86 ms 
+Page should consist of an HTML main heading element with text content as "Add New Password"
+38 ms 
+Page should consist of an HTML form element
+10 ms 
+Page should consist of an HTML image element with alt attribute value as "website" and src as the given website image URL
+68 ms 
+Page should consist of an HTML input element with the placeholder as "Enter Website" and type as "text"
+11 ms 
+Page should consist of an HTML image element with alt attribute value as "username" and src as the given username image URL
+64 ms 
+Page should consist of an HTML input element with the placeholder as "Enter Username" and type as "text"
+10 ms 
+Page should consist of an HTML image element with alt attribute value as "password" and src as the given password image URL
+65 ms 
+Page should consist of an HTML input element with the placeholder as "Enter Password" and type as "password"
+10 ms 
+Page should consist of an HTML button element with "Add" as text content and type as "submit"
+29 ms 
+Page should consist of an HTML image element with alt attribute value as "password manager" and src as the given password manager URL
+61 ms 
+Page should consist of an HTML main heading element with text content as "Your Passwords"
+31 ms 
+Page should initially consist of an HTML paragraph element to display the count of the passwords with text content as "0"
+12 ms 
+Page should consist of an HTML image element with alt attribute value as "search" and src as the given search image URL
+59 ms 
+Page should consist of an HTML input element with type attribute value as "search"
+24 ms 
+Page should consist of an HTML input element with type attribute value as "checkbox" and label text as "Show passwords"
+26 ms 
+Page should initially consist of an HTML image element with alt attribute value as "no passwords" and src as the given no passwords image URL
+63 ms 
+Page should initially consist of an HTML paragraph element with text content as "No Passwords"
+10 ms 
+When a non-empty value is provided in an HTML input element with the placeholder as "Enter Website", then that text should be displayed in the HTML input element
+38 ms 
+When a non-empty value is provided in an HTML input element with the placeholder as "Enter UserName", then that text should be displayed in the HTML input element
+23 ms 
+When a non-empty value is provided in an HTML input element with the placeholder as "Enter Password", then that text should be displayed in the HTML input element
+39 ms 
+When values are provided for a website, username, and password and the Add button is clicked, then the page should consist of at least one HTML unordered list element to display the list of password items
+127 ms 
+When values are provided for a website, username, and password and the Add button is clicked, then the page should consist of at least one HTML list item to display the list of password items
+105 ms 
+When values are provided for a website, username, and password and the Add button is clicked, then the page should consist of an HTML paragraph element with text content as website provided
+91 ms 
+When values are provided for a website, username, and password and the Add button is clicked, then the page should consist of an HTML paragraph element with text content as username provided
+96 ms 
+When values are provided for a website, username, and password and the Add button is clicked, then the page should consist of an HTML image element with alt attribute value as "stars" and src as the given stars image URL
+158 ms 
+When values are provided for a website, username, and password and the Add button is clicked, then the page should consist of an HTML button element with data-testid as "delete"
+83 ms 
+When values are provided for a website, username, and password and the Add button is clicked, then the page should consist of an HTML image element with alt attribute value as "delete" and src as the given delete URL
+150 ms 
+When a new password is added, then the count of the passwords should be incremented by one
+82 ms 
+When a new password is added and "Show passwords" is checked, then the page should consist of an HTML paragraph element with text content as password provided
+89 ms 
+When a non-empty value is provided in the search input element, then that text should be displayed in the search input element
+133 ms 
+When new passwords are added and a non-empty value is provided in the search input element, the password items should be filtered irrespective of the case
+178 ms 
+When new passwords are added and a non-empty value is provided in the search input element, and no password item includes the value given in the search input, then the page should consist of an HTML image element with alt attribute value as "no passwords" and src as the given no passwords image URL
+165 ms 
+When a new password is added and a non-empty value is provided in the search input element, and no password item includes the value given in the search input, then the page should consist of an HTML paragraph element with text content as "No Passwords"
+104 ms 
+When a new password is added and the delete button of a password item is clicked, then the respective password item should be deleted
+81 ms 
+When a new password is added and the delete button of a password item is clicked, then the page should consist of an HTML image element with alt attribute value as "no passwords" and src as the given no passwords image URL
+130 ms 
+When a new password is added and the delete button of a password item is clicked, then the page should consist of an HTML paragraph element with text content as "No Passwords"
+82 ms 
